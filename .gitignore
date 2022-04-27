@@ -1,18 +1,1 @@
-menu = "1.Sosyal Mühendislik\n2.SMS Bombardımanı\n99.çıkış"
-print(menu)
-anahtar = 1
-while anahtar == 1:
-    secenek = input("Numara giriniz: ")
-    if(secenek == "1"):
-        print("SOSYAL MÜHENDiSLİK".center(50,"*"))
-        print("1.Sahte email\n2.Sahte numara\n99.geri")
-        muhendisliksec = input("Numara giriniz: ")
-    elif(secenek == "2"):
-        print("SMS BOMBARDIMANI".center(50,"*"))
-        print("1.Numara girme yeri\n2.mesaj yazma yeri\n99.geri")
-        smssec = input("Numara giriniz: ")
-    elif(secenek == "99"):
-        print("çıktınız...")
-        anahtar == 0
-    else:
-        print("yanlış girdiniz, tekrar giriniz\n",menu)
+
